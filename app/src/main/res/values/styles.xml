@@ -8,4 +8,18 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="EditTextStyle" parent="Widget.AppCompat.EditText">
+        <item name="android:background">@color/colorBlue</item>
+        <item name="android:textSize">@dimen/et_text_size</item>
+    </style>
+
+    <style name="TextViewStyle" parent="Widget.AppCompat.AutoCompleteTextView">
+        <item name="android:background">@color/colorGreen</item>
+        <item name="android:textSize">@dimen/tv_text_size</item>
+    </style>
+
+    <style name="ButtonStyle" parent="Base.Widget.AppCompat.Button">
+        <item name="android:background">@color/colorRed</item>
+    </style>
+
 </resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/et_first_name_AAP"
+
+        style="@style/EditTextStyle"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_vertical_margin"
+        android:hint="@string/first_name" />
+
+    <EditText
+        android:id="@+id/et_last_name_AAP"
+
+        style="@style/EditTextStyle"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_vertical_margin"
+        android:hint="@string/last_name" />
+
+    <EditText
+        android:id="@+id/et_gender_AAP"
+
+        style="@style/EditTextStyle"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_vertical_margin"
+        android:hint="@string/gender" />
+
+    <EditText
+        android:id="@+id/et_age_AAP"
+
+        style="@style/EditTextStyle"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_vertical_margin"
+        android:hint="@string/age"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/et_phone_number_AAP"
+
+        style="@style/EditTextStyle"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_vertical_margin"
+        android:hint="@string/phone_number"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/btn_add_person_AAP"
+
+        style="@style/ButtonStyle"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/create_btn"
+        android:textAllCaps="false" />
+</LinearLayout>
